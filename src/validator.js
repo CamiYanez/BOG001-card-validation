@@ -34,18 +34,22 @@ const validator = {
     let residue = sum % 10;
 
     //Si el residuo es igual a 0 la tarjeta es valida, sino, es invalida
-    if (residue = 0) {
-      return true;
-    } else {
-      return false;
-    }
-    });
+      if (residue = 0) {
+        return true;
+      } else {
+        return false;
+      }
+  });
   }
+
+    //maskify: (cardNumber) => {}
 };
 
 //----------------------- Codigo para pruebas ----------------------------------------
 // inputNumberCard.addEventListener('blur', function(){
 //   validator.isvalid(inputNumberCard.value)
 // });
+
+
 
 export default validator;
