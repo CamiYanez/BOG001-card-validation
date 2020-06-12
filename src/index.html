@@ -67,14 +67,14 @@
                   <img src="images/tc/chip.png" alt="" class="chip">
                 </div>
                 <div id="data">
-                  <p class="dataNumber" id="dataNumber">**** **** **** 2156</p>
+                  <p class="dataNumber" id="dataNumber">#### #### #### ####</p>
                 </div>
                 <div id="nameExp" class="flex-container">
-                    <div id="dataName">
-                      <p class="dataName">Ana Rátiva</p>
+                    <div id="Name">
+                      <p class="dataName" id="dataName">Nombre titular</p>
                     </div>
                     <div id="dataExpiration">
-                      <p class="dataExpiration"><span class="month">MM</span>/<span class="year">AA</span></p>
+                      <p class="dataExpiration"><span id="month">MM</span>/<span id="year">AA</span></p>
                     </div>
                 </div>
           </div>
@@ -85,37 +85,13 @@
               <label for="inputName">Nombre del Titular</label>
               <input type="text" autocomplete="off" id="inputName">
               <label for="selectMonth">Fecha de expiración</label>
-              <!--<input placeholder="Mes" list="months"  id="selectMonth" required>
-                <datalist id="months">
-                  <option value="1">
-                  <option value="2">
-                  <option value="3">
-                  <option value="4">
-                  <option value="5">
-                  <option value="6">
-                  <option value="7">
-                  <option value="8">
-                  <option value="9">
-                  <option value="10">
-                  <option value="11">
-                  <option value="12">
-                </datalist>
-              <input placeholder="Año" list="year"  id="selectMonth" required>
-                <datalist id="year">
-                  <option value="2020">
-                  <option value="2021">
-                  <option value="2022">
-                  <option value="2023">
-                  <option value="2024">
-                  <option value="2025">
-                </datalist>-->
                 <select name="month" id="selectMonth">
                     <option disabled selected>Mes</option>
                 </select>
                 <select name="year" id="selectYear">
                     <option disabled selected>Año</option>
                 </select>
-              <button id="validDataCard"type="submit" name="Validar">ENVIAR</button>
+              <button id="validDataCard" type="submit" name="Validar">ENVIAR</button>
             </form>
           </div>
         </section>
