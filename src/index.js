@@ -54,7 +54,7 @@ inputNumberTC.addEventListener('keyup', e => {
   }
 });
 
-/*/ Validación tarjeta
+// Validación tarjeta
 const errorValidation = document.getElementById('errorValidation')
 
 inputNumberTC.addEventListener('blur', function(){
@@ -65,7 +65,7 @@ inputNumberTC.addEventListener('blur', function(){
   } else {
     errorValidation.textContent = ""
   }
-});*/
+});
 
 // Reflejar Nombre en TC 
 const nameCreditCard = document.getElementById('dataName');
