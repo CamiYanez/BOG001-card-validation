@@ -129,7 +129,7 @@ align-items: center;
 .creditCard{
 width: 450px;
 height: 250px;
-background-color: #7F7F7F;
+background-color: RGBA(127,127,127,0.6);
 color: #FFFFFF;
 border-radius: 15px;
 padding: 10px 0;
@@ -154,7 +154,7 @@ max-width: 50px;
 }
 
 .dataNumber, .dataExpiration, .dataName{
-color: #FFFFFF;
+color: #575757;
 font-size: 25px;
 text-transform: uppercase;
 }
@@ -183,6 +183,10 @@ border: 2px solid #CED6E0;
 width: 100%;
 padding: 5px 12px;
 border-radius: 5px;
+}
+
+#errorValidation {
+  color: red;
 }
 
 /*--------- ESTILOS FOOTER ---------*/

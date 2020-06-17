@@ -84,15 +84,15 @@
               <input type="text" name="cardNumber" id="inputNumberCard" minlength="16" maxlength="16" required>
               <p id="errorValidation"></p>
               <label for="inputName">Nombre del Titular</label>
-              <input type="text" autocomplete="off" id="inputName">
+              <input type="text" autocomplete="off" id="inputName" required>
               <label for="selectMonth">Fecha de expiración</label>
-                <select name="month" id="selectMonth">
+                <select name="month" id="selectMonth" required>
                     <option disabled selected>Mes</option>
                 </select>
-                <select name="year" id="selectYear">
-                    <option disabled selected>A ño</option>
+                <select name="year" id="selectYear" required="">
+                    <option disabled selected>Año</option>
                 </select>
-              <button id="validDataCard" type="submit" name="Validar">ENVIAR</button>
+              <button id="validDataCard" type="submit" name="Validar">PAGAR</button>
             </form>
           </div>
         </section>
@@ -100,14 +100,14 @@
     </main>
 
   <footer>
-      <img class="socialMediaImg" src="images/socialMail.png" alt="E-mail">
-      <p>musicshop@gmail.com</p>
-      <img class="socialMediaImg" src="images/socialPhone.png" alt="Phone">
-      <p>(+57) 316 828 2943</p>
-      <img class="socialMediaImg" src="images/socialFacebook.png" alt="Facebook">
-      <img class="socialMediaImg" src="images/socialInstagram.png" alt="Instagram">
-      <img class="socialMediaImg" src="images/socialWhatsapp.png" alt="Whatsapp">
-      <img class="socialMediaImg" src="images/socialTwitter.png" alt="Twitter">
+    <img class="socialMediaImg" src="images/socialMail.png" alt="E-mail">
+    <p>musicshop@gmail.com</p>
+    <img class="socialMediaImg" src="images/socialPhone.png" alt="Phone">
+    <p>(+57) 316 828 2943</p>
+    <img class="socialMediaImg" src="images/socialFacebook.png" alt="Facebook">
+    <img class="socialMediaImg" src="images/socialInstagram.png" alt="Instagram">
+    <img class="socialMediaImg" src="images/socialWhatsapp.png" alt="Whatsapp">
+    <img class="socialMediaImg" src="images/socialTwitter.png" alt="Twitter">
   </footer>
 
   <script src="index.js" type="module"></script>
