@@ -12,8 +12,6 @@
 
 MUSIC SHOP es una página web musical especializada en la venta de instrumentos musicales.
 
-<img width="500px" src=".jpg">
-
 ## 2. Investigación UX
 
 ### ¿Quiénes son los principales usuarios del producto?
@@ -30,15 +28,15 @@ El producto que creamos facilita una interfaz web que permite a los usuarios vis
 
 ### Prototipo en papel
 
-<img width="500px" src="src/images/README/prototipoAnalogo.jpg">
+<img width="600px" src="src/images/README/prototipoAnalogo.jpg">
 
 ### Prototipo digital
-<img width="500px" src="src/images/README/prototipoDigital1.png">
+<img width="600px" src="src/images/README/prototipoDigital1.png">
 
-Aquí el feedbak.
+Mediante el feedback a nuestro prototipo en papel, definimos un nuevo diseño más interactivo y llamativo para el usuario. Se buscó que mediante los colores y reorganización de elementos (como la barra de navegación), se generara un ambiente más amigable.
 
-<img width="500px" src="src/images/README/prototipoDigital2.png">
-<img width="500px" src="src/images/README/prototipoDigital3.png">
+<img width="600px" src="src/images/README/prototipoDigital2.png">
+<img width="600px" src="src/images/README/prototipoDigital3.png">
 
 ## 3. Objetivos de aprendizaje
 
@@ -82,4 +80,4 @@ Aquí el feedbak.
 
 * [x] Organizar y dividir el código en módulos (Modularización).
 * [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [ ] Uso de linter para seguir buenas prácticas (ESLINT)-
+* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
