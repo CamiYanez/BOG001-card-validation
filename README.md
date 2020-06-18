@@ -12,6 +12,11 @@
 
 MUSIC SHOP es una página web musical especializada en la venta de instrumentos musicales.
 
+<img width="600px" src="src/images/README/ms1.png">
+<img width="600px" src="src/images/README/ms2.png">
+<img width="600px" src="src/images/README/ms3.png">
+<img width="600px" src="src/images/README/ms4.png">
+
 ## 2. Investigación UX
 
 ### ¿Quiénes son los principales usuarios del producto?
@@ -27,7 +32,6 @@ El principal objetivo de los usuarios es encontrar una plataforma segura en dond
 El producto que creamos facilita una interfaz web que permite a los usuarios visualizar diferentes instrumentos y facilita realizar el pago en línea.
 
 ### Prototipo en papel
-
 <img width="600px" src="src/images/README/prototipoAnalogo.jpg">
 
 ### Prototipo digital
