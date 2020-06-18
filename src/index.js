@@ -107,5 +107,4 @@ function showValid() {
     alert("Tu pago ha sido exitoso");
   }
 }
-  
 
